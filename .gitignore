@@ -7,18 +7,45 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Node modules
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Local caches
+.cache/
+.vite/
+vite.config.ts.timestamp*
+vite.svg
+package-lock.json
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Optional: common backups or temp files
+*.pid
+*.seed
+*.tgz
+*.tmp
+*.temp
+*.bak
+*.orig
