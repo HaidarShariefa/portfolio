@@ -21,7 +21,7 @@ const Projects = () => {
         "A robust full-stack web application designed to streamline task management, user administration, and reporting.",
       tech: ["React", "Node.js", "MongoDB", "TailwindCSS", "ExcelJS"],
       image: project2,
-      demo: "#",
+      demo: "https://codex-task-manager.vercel.app",
       github: "https://github.com/HaidarShariefa/Task-Manager",
     },
     {
