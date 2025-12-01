@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           <p>© {new Date().getFullYear()} All rights reserved.</p>
           <p className="flex items-center gap-1">
-            Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> using React & Tailwind
+            Made with React, TailwindCSS, and Framer Motion
           </p>
         </div>
       </div>
